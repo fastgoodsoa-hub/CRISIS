@@ -42,7 +42,7 @@ ACCROCHES = {
     1: ['Ce que disent plus de 50', 'sages, philosophes', 'et entrepreneurs,', 'de l\u2019Égypte des pharaons', 'à nos jours'],   # validée le 27 nov. 2026
     2: ['Ce que disent plus de 50', 'sages, philosophes,', 'entrepreneurs', 'et investisseurs,', 'de l\u2019Égypte des pharaons', 'à nos jours'],  # validée le 27 nov. 2026
 }
-ACCROCHES['crisis'] = ['Ce que nous apprennent', '4 500 ans de guerres,', 'de krachs et d\u2019épidémies,', 'de l\u2019Égypte des pharaons', 'à nos jours']   # proposition du 27 nov. 2026, à valider
+ACCROCHES['crisis'] = ['Ce que nous apprennent', '3\u00a0200 ans de guerres,', 'de krachs et d\u2019épidémies,', 'de l\u2019Égypte des pharaons', 'à nos jours']   # durée 3 200 ans validée le 27 nov. 2026 (effondrement de l'âge du bronze)
 ACCROCHE = ACCROCHES['crisis'] if LIVRE == 'crisis' else ACCROCHES[TOME]
 # Titre (lignes, même corps), sous-titre, mention du tome, texte du dos, nom de fichier
 PROFILS = {
